@@ -1,0 +1,53 @@
+header {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 75px;
+    background-color: #00BBE4;
+    font-size: 20px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    margin-top: 0px;
+}
+
+section div img{
+    height: 350px;
+    border-radius: 5%;
+    margin-left: 65px;
+}
+
+@media (max-width:650px) {
+    section div img{
+        margin-left: auto;
+    }
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    margin-inline: auto;
+    align-items: center;
+    margin: 20px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media (max-width:650px) {
+    section{
+        flex-direction: column;
+    }
+}
+
+footer{
+   width: 100%; 
+   text-align: center;
+   background-color: #00BBE4;
+}
+
+footer div img{
+    height: 100px;
+    width: auto;
+}
